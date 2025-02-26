@@ -13,7 +13,7 @@ Running `test_calculator.py`, it gave this error:
 
 ![image](https://github.com/user-attachments/assets/b6f36d54-e2e8-4c97-9681-dd0aa415c1c5)
 
-This means that the test failed at the `assert double(3) == 6`, meaning that when 3 is currently passed into this version of double, the output is not 6.
-However, the test was successful at `assert double(2) == 4`. This is a coincidence since 2*2=4 and 2+2=4.
-Therefore, this prompts me to look at my double function and see that it has a logical error, allowing me to fix it.
+This means that the test failed at the `assert double(3) == 6`, meaning that when 3 is currently passed into this version of double, the output is not 6.  
+However, the test was successful at `assert double(2) == 4`. This is a coincidence since 2*2=4 and 2+2=4.  
+Therefore, this prompts me to look at my double function and see that it has a logical error, allowing me to fix it.  
 The tests give me clues on what the error could be (if there is one) so therefore it must be more efficient to use all types of tests (such as valid, invalid, boundary, erroneous) rather than only multiple tests of one type as it will allow me to narrow down the error quicker, saving time.
