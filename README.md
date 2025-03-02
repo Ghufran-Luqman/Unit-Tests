@@ -21,18 +21,18 @@ The tests give me clues on what the error could be (if there is one) so therefor
 
 ## Testing with pytest
 ### Testing without errors
-The function correctly doubles a number.
-Here is what I am testing: 
-![image](https://github.com/user-attachments/assets/86f6b9a1-dcee-4c38-9141-97d513fb5b8c) 
-Running `pytest test_calculator.py`, it gave this output:
-![image](https://github.com/user-attachments/assets/bd6c1e0a-b821-4705-88fe-ab3c88ac5980) 
-Meaning that all tests passed.
+The function correctly doubles a number.  
+Here is what I am testing:  
+![image](https://github.com/user-attachments/assets/86f6b9a1-dcee-4c38-9141-97d513fb5b8c)  
+Running `pytest test_calculator.py`, it gave this output:  
+![image](https://github.com/user-attachments/assets/bd6c1e0a-b821-4705-88fe-ab3c88ac5980)  
+Meaning that all tests passed. 
 
 ### Testing with errors
-The error is that the double function adds 2 to the given number rather than multiplying it by 2.
-I am testing 2, 3, and 0 as above.
-Running `pytest test_calculator.py`, it gave this output:
-![image](https://github.com/user-attachments/assets/0d68cc31-fc90-4979-93a8-b27ab5d86490) 
-This means the test failed at 3, it did not try 0. 
-pytest gives a hint as to what it is trying to equate, as shown it is trying to equate 5 and 6, and it shows the function where 5 came from. 
-This way, I can easily narrow down the function causing this error, and perhaps debug that function further using breakpoints for example to exactly pinpoint the error.
+The error is that the double function adds 2 to the given number rather than multiplying it by 2.  
+I am testing 2, 3, and 0 as above.  
+Running `pytest test_calculator.py`, it gave this output:  
+![image](https://github.com/user-attachments/assets/0d68cc31-fc90-4979-93a8-b27ab5d86490)  
+This means the test failed at 3, it did not try 0.  
+pytest gives a hint as to what it is trying to equate, as shown it is trying to equate 5 and 6, and it shows the function where 5 came from.  
+This way, I can easily narrow down the function causing this error, and perhaps debug that function further using breakpoints for example to exactly pinpoint the error. 
