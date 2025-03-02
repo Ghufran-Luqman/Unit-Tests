@@ -35,4 +35,4 @@ Running `pytest test_calculator.py`, it gave this output:
 ![image](https://github.com/user-attachments/assets/0d68cc31-fc90-4979-93a8-b27ab5d86490)  
 This means the test failed at 3, it did not try 0.  
 pytest gives a hint as to what it is trying to equate, as shown it is trying to equate 5 and 6, and it shows the function where 5 came from.  
-This way, I can easily narrow down the function causing this error, and perhaps debug that function further using breakpoints for example to exactly pinpoint the error. 
+This way, I can easily narrow down the function causing this error, and perhaps debug that function further using breakpoints for example to exactly pinpoint the error if it was a larger, more complex function.  
