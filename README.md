@@ -19,7 +19,7 @@ However, the test was successful at `assert double(2) == 4`. This is a coinciden
 Therefore, this prompts me to look at my double function and see that it has a logical error, allowing me to fix it.  
 The tests give me clues on what the error could be (if there is one) so therefore it must be more efficient to use all types of tests (such as valid, invalid, boundary, erroneous) rather than only multiple tests of one type as it will allow me to narrow down the error quicker, saving time.
 
-### Testing with pytest
+## Testing with pytest
 ### Testing without errors
 The function correctly doubles a number.
 Here is what I am testing: 
