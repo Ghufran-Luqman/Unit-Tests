@@ -32,7 +32,18 @@ Running `pytest test_calculator.py`, it gave this output:
 This means the test failed at 3, it did not try 0.  
 pytest gives a hint as to what it is trying to equate, as shown it is trying to equate 5 and 6, and it shows the function where 5 came from.  
 This way, I can easily narrow down the function causing this error, and perhaps debug that function further using breakpoints for example to exactly pinpoint the error if it was a larger, more complex function.  
-##### Inputting strings
+#### Multiple tests
+By default, pytest will stop at the first failed test. To get around this issue, I can simply put the other tests into new functions. This way, I can have more clues as to what is going wrong in my function.  
+![image](https://github.com/user-attachments/assets/90790bc6-939d-4015-9f3b-ee5f7186815d)  
+##### Without error
+Now, if I run `pytest test_calculator.py` when `double` is working correctly, I get:  
+![image](https://github.com/user-attachments/assets/e6ff47e9-7ef4-456f-ac62-410f5da917db)  
+Showing that all three passed (the dots give a very fast way to tell which ones pass and fail).
+##### With error
+If I run `pytest test_calculator.py` when `double` adds 2 instead of multiplying by 2, I get:
+![image](https://github.com/user-attachments/assets/d50934b4-a0ff-4434-b3f4-41b28a609813)  
+This shows the details of all the tests, allowing me to further pinpoint errors, which is again more useful for more complex functions.
+#### Inputting strings
 If the user inputs a string, that will happen in the `main` function of `calculator.py`, which I am not testing at the moment. Therefore, I will move the error to occur in the `double` function since I am testing that section. I am achieving this by removing the `int` from the user input and seeing if an error will take place if the user enters a string.
 `calculator.py`:  
 ![image](https://github.com/user-attachments/assets/26f25d89-fedd-4497-a81d-55bd61ca224c)  
@@ -47,14 +58,3 @@ To include this in `test_calculator.py`, I will raise a ValueError:
 ![image](https://github.com/user-attachments/assets/21105a10-f313-4ba3-ae62-773fa1888f96)  
 So now it tests strings. Running `pytest test_calculator.py` gives:  
 ![image](https://github.com/user-attachments/assets/8d17a0bd-1fff-4182-9fe6-8b79df265936)  
-#### Multiple tests
-By default, pytest will stop at the first failed test. To get around this issue, I can simply put the other tests into new functions. This way, I can have more clues as to what is going wrong in my function.  
-![image](https://github.com/user-attachments/assets/90790bc6-939d-4015-9f3b-ee5f7186815d)  
-##### Without error
-Now, if I run `pytest test_calculator.py` when `double` is working correctly, I get:  
-![image](https://github.com/user-attachments/assets/e6ff47e9-7ef4-456f-ac62-410f5da917db)  
-Showing that all three passed (the dots give a very fast way to tell which ones pass and fail).
-##### With error
-If I run `pytest test_calculator.py` when `double` adds 2 instead of multiplying by 2, I get:
-![image](https://github.com/user-attachments/assets/d50934b4-a0ff-4434-b3f4-41b28a609813)  
-This shows the details of all the tests, allowing me to further pinpoint errors, which is again more useful for more complex functions.
