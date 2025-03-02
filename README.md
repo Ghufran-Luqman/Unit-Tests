@@ -28,7 +28,7 @@ Running `pytest test_calculator.py`, it gave this output:
 ![image](https://github.com/user-attachments/assets/bd6c1e0a-b821-4705-88fe-ab3c88ac5980)  
 Meaning that all tests passed. 
 
-### Testing with errors
+#### Testing with errors
 The error is that the double function adds 2 to the given number rather than multiplying it by 2.  
 I am testing 2, 3, and 0 as above.  
 Running `pytest test_calculator.py`, it gave this output:  
