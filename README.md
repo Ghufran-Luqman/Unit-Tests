@@ -12,7 +12,7 @@ I am testing 2 and 3 as shown below:
 Running `test_calculator.py` gave me nothing meaning that no errors occurred.  
 ![image](https://github.com/user-attachments/assets/73dfd7ea-8602-49b5-aa86-58db699aa7ba)  
 #### Testing with addition error
-The error is that the double function adds 2 to the given number rather than multiplying it by 2.
+The error is that the double function adds 2 to the given number rather than multiplying it by 2.  
 ![image](https://github.com/user-attachments/assets/1f6a3fa7-4800-4b2a-9fd5-0fa0b55ee553)  
 Running `test_calculator.py`, it gave this error:  
 ![image](https://github.com/user-attachments/assets/b6f36d54-e2e8-4c97-9681-dd0aa415c1c5)  
