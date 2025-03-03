@@ -31,7 +31,7 @@ Running `python test_calculator.py` to make sure 0 succeeds, it outputs nothing:
 Therefore 0 is successful
 ##### With addition error
 Running `python test_calculator.py`, it gives this output:  
-![image](https://github.com/user-attachments/assets/ac92f088-5ebe-4dfa-8914-ce3168965351)
+![image](https://github.com/user-attachments/assets/ac92f088-5ebe-4dfa-8914-ce3168965351)  
 Showing that the program only tests up to 3 (up to the first failed test).  
 Therefore, to get around this issue, I will put tests in separate functions.  
 ![image](https://github.com/user-attachments/assets/810b5a59-23f0-40b3-8570-945440a34c70)  
