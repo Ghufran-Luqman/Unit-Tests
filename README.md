@@ -7,7 +7,7 @@ This way, I can see how the errors given from the test can help me debug the and
 ### Testing without pytest
 #### Testing without addition error
 The function correctly doubles a number. 
-I am testing 2 and 3 as shown below:
+I am testing 2 and 3 as shown below:  
 ![image](https://github.com/user-attachments/assets/f060e73d-a803-4ff0-a5df-9b57e5fab7b8)  
 Running `test_calculator.py` gave me nothing meaning that no errors occurred.  
 ![image](https://github.com/user-attachments/assets/73dfd7ea-8602-49b5-aa86-58db699aa7ba)  
