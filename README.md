@@ -42,4 +42,4 @@ I do not have to put them in separate functions.
 ![image](https://github.com/user-attachments/assets/fe930f8e-e60e-4dd1-be7e-8ebe12e3c7a6)  
 Running `python test_calculator.py` again, it gave this output:  
 ![image](https://github.com/user-attachments/assets/6cf2e5f9-8de2-4a1a-844a-912a23bdfe9b)  
-This is a successful work around however it takes up many lines of code, much more compared to pytest.
+This is a successful workaround however it takes up many lines of code, much more compared to pytest.
