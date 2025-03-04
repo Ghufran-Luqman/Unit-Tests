@@ -9,3 +9,6 @@ This way, I can see how the errors given from the test can help me debug the and
 This section is within the `nopytest` branch
 ### Testing with pytest
 This section is within the `withpytest` branch
+
+## Sources
+The idea of the main python file and the tests come from Harvard CS50's lecture on unit tests: https://www.youtube.com/watch?v=tIrcxwLqzjQ
