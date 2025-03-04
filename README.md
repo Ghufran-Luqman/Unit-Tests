@@ -12,5 +12,5 @@ This section is within the `withpytest` branch
 ## FastAPI Testing
 This section is within the `testfastAPI` branch
 ## Sources
-The idea of the main python file and the tests come from Harvard CS50's lecture on unit tests: https://www.youtube.com/watch?v=tIrcxwLqzjQ  
-I decided to look at a basic test for FastAPI and the code is sourced from this website: https://apidog.com/blog/unit-testing-fastapi/
+The idea of the `double` function and the tests of it come from Harvard CS50's lecture on unit tests: https://www.youtube.com/watch?v=tIrcxwLqzjQ  
+I also decided to look at a basic test for FastAPI and the code is sourced from this website: https://apidog.com/blog/unit-testing-fastapi/
