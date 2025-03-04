@@ -40,7 +40,7 @@ If the user inputs a string, that will happen in the `main` function of `calcula
 ![image](https://github.com/user-attachments/assets/26f25d89-fedd-4497-a81d-55bd61ca224c)  
 Here is my test:  
 ![image](https://github.com/user-attachments/assets/ef90942e-e6ef-4016-89f3-6074f5550996)  
-As shown, no error is raised, but clearly there is a logic error as the program is returning the string.
+As shown, no error is raised, but clearly there is a logic error as the program is returning the string twice.
 It should return an actual error, therefore I will slightly change the `double` function to this:  
 ![image](https://github.com/user-attachments/assets/03dd3209-84b6-4433-9050-134b35b1d8c6)  
 Testing it, it gives:  
