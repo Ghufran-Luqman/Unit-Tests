@@ -43,6 +43,7 @@ It should return an actual error, therefore I will slightly change the `double` 
 ![image](https://github.com/user-attachments/assets/03dd3209-84b6-4433-9050-134b35b1d8c6)  
 Testing it, it gives:  
 ![image](https://github.com/user-attachments/assets/944a2de2-4fcd-4b6d-9943-f48d433f0a6d)  
+All tests are now successful.
 To include this in `test_calculator.py`, I will raise a ValueError:  
 ![image](https://github.com/user-attachments/assets/21105a10-f313-4ba3-ae62-773fa1888f96)  
 So now it tests strings. Running `pytest test_calculator.py` gives:  
